@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  padding: 50px 10px;
+  height: 100vh;
+  background: #ffc0cb;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.card{
+  background-color: whitesmoke;
+  text-align: center;
+  box-shadow: 0 24px 40px -8px #ff1493;
+  width: 450px;
+  height: max-content;
+  padding: 16px;
+}
+
+.front_img {
+  width: 450px;
+}
+.front_text,
+.inside_text {
+  color: #a60657;
+  font-family: "Brush Script MT", cursive;
+  font-size: 24px;
+}
+
+.gif{
+  position: fixed;
+  bottom: 0px;
+  left: 0px; 
+}
+.gif-img{
+  width:200px;
+  animation: slideAnimation 18s linear infinite;
+}
+@keyframes slideAnimation {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+
+@media only screen and (max-width:438px) {
+  body {
+    padding:  10px;
+  }
+.card{
+  width: 280px;
+    height: max-content;
+}
+.front_img {
+  width: 300px;
+  margin-right: 0px;
+  margin-left: 0px;
+ 
+  position: relative;
+}
+
+ 
+
+.inside_card {
+  width: 300px;
+  height: 450px;
+}
+.gif-img{
+  width:100px;
+}
+} 
+
+.song{
+  display: none;
+}
+
+/* .valentines_card {
+  position: relative;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transform: perspective(2500px);
+  transition: 4s;
+}
+
+.front_img {
+  width: 450px;
+  position: relative;
+}
+
+.inside_img {
+  width: 350px;
+  margin-right: -50px;
+  margin-left: -50px;
+  margin-top: 100px;
+  position: relative;
+}
+
+
+.front_text,
+.inside_text {
+  color: #a60657;
+  font-family: "Brush Script MT", cursive;
+  font-size: 24px;
+}
+
+.front_card {
+  position: relative;
+  overflow: hidden;
+  transform-origin: left;
+  margin: 40px auto;
+  padding: 16px;
+  background-color: whitesmoke;
+  text-align: center;
+  box-shadow: 0 24px 40px -8px #ff1493;
+  width: 450px;
+  height: 450px;
+}
+
+
+
+.gif{
+  position: fixed;
+  bottom: 0px;
+  left: 0px; 
+}
+.gif-img{
+  width:300px;
+  animation: slideAnimation 18s linear infinite;
+}
+@keyframes slideAnimation {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+
+@media only screen and (max-width:438px) {
+  .front_card {
+    
+    width: 280px;
+    height: max-content;
+  }
+  .front_img {
+    width: 300px;
+    margin-right: 0px;
+    margin-left: 0px;
+   
+    position: relative;
+  }
+
+   
+
+  .inside_card {
+    width: 300px;
+    height: 450px;
+  }
+  .gif-img{
+    width:100px;
+  }
+ 
+} */
