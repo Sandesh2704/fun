@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Sandesh2704/card.git/static/css/main.3dee1eb7.css",
+    "main.js": "/Sandesh2704/card.git/static/js/main.8ec9ab79.js",
+    "static/js/592.7c5bd492.chunk.js": "/Sandesh2704/card.git/static/js/592.7c5bd492.chunk.js",
+    "static/media/song.mp3": "/Sandesh2704/card.git/static/media/song.bec9ec0e9c5d621ac916.mp3",
+    "static/media/dance.gif": "/Sandesh2704/card.git/static/media/dance.121006a46e224c080ba9.gif",
+    "static/media/vday.png": "/Sandesh2704/card.git/static/media/vday.9f545a7b418722380102.png",
+    "index.html": "/Sandesh2704/card.git/index.html",
+    "main.3dee1eb7.css.map": "/Sandesh2704/card.git/static/css/main.3dee1eb7.css.map",
+    "main.8ec9ab79.js.map": "/Sandesh2704/card.git/static/js/main.8ec9ab79.js.map",
+    "592.7c5bd492.chunk.js.map": "/Sandesh2704/card.git/static/js/592.7c5bd492.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3dee1eb7.css",
+    "static/js/main.8ec9ab79.js"
+  ]
+}
